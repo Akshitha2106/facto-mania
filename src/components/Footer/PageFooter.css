@@ -1,0 +1,138 @@
+.page-footer {
+  text-align: center;
+  margin-top: 100px;
+  font-family: "Rubik";
+  padding: 48px 0;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px,
+    rgb(160, 160, 160) 0px 0px 0px 3px;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 35px;
+  margin-bottom: 20px;
+  letter-spacing: 1.2;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.copyright-message {
+  font-size: 20px;
+}
+
+.footer-logo {
+  height: 40px;
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+
+.footer-icon {
+  scale: 1.1;
+}
+
+.footer-icons a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+
+.footer-icon:hover {
+  color: #d6d5d5;
+  cursor: pointer;
+  transition: all 0.3s;
+  scale: 1.25;
+}
+
+@media (max-width: 1800px) {
+  .page-footer {
+    margin: 100px 80px 0;
+  }
+}
+@media (max-width: 1400px) {
+  .page-footer {
+    margin-top: 100px;
+    padding: 36px 0;
+    border-radius: 16px;
+  }
+
+  .copyright-message {
+    font-size: 16px;
+  }
+
+  .footer-logo {
+    height: 25px;
+  }
+
+  .footer-icon {
+    scale: 1;
+  }
+  .footer-icon:hover {
+    scale: 1.1;
+  }
+}
+
+@media (max-width: 800px) {
+  .page-footer {
+    margin-top: 100px;
+    padding: 20px 0;
+    border-radius: 16px;
+  }
+
+  .copyright-message {
+    font-size: 13px;
+  }
+
+  .footer-logo {
+    height: 20px;
+  }
+
+  .footer-icon {
+    scale: 0.8;
+  }
+  .footer-icon:hover {
+    scale: 1;
+  }
+}
+
+@media (max-width: 660px) {
+  .page-footer {
+    padding: 20px 32px;
+    border-radius: 40px;
+  }
+
+  .copyright {
+    gap: 3px;
+    font-size: 18px;
+
+    letter-spacing: 1;
+    line-height: 1;
+  }
+
+  .footer-icons {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .footer-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .page-footer {
+    margin-left: -25px;
+    margin-right: -25px;
+  }
+}
