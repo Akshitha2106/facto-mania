@@ -15,26 +15,26 @@ const PageFooter = () => {
       {/* <p className="footer-message">Contact Me</p> */}
       <div className="copyright">
         <img className="footer-logo" src="./website-logo.png" />
-        <p className="copyright-message">Copyright (©️) 2023 Kshitij Gupta</p>
+        <p className="copyright-message">Copyright (©️) 2023 Akshitha Mittapally</p>
       </div>
       <div className="footer-icons">
         <a
           className="footer-icons-a"
-          href="https://github.com/guptakshitij2308/facto-mania"
+          href="#"
           target="_blank"
         >
           <GitHubIcon className="footer-icon" />
         </a>
         <a
-          href="https://www.linkedin.com/in/kshitij-gupta-362aa1227/"
+          href="#"
           target="_blank"
         >
           <LinkedInIcon className="footer-icon" />
         </a>
-        <a href="https://www.facebook.com/U.Get.Kshitij/" target="_blank">
+        <a href="#" target="_blank">
           <FacebookIcon className="footer-icon" />
         </a>
-        <a href="https://www.instagram.com/guptakshitijkumar_/" target="_blank">
+        <a href="#" target="_blank">
           <InstagramIcon className="footer-icon" />
         </a>
       </div>
